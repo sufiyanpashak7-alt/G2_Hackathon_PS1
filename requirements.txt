@@ -1,4 +1,15 @@
-numpy
+# Core Dependencies & Database
+psycopg2-binary
+pgvector
+python-dotenv
+ollama
+
+# Machine Learning & Search (RAG Pipeline)
+sentence-transformers
+rank-bm25
 torch
+numpy
+
+# Audio Processing & Diarization
 faster-whisper
 pyannote.audio
