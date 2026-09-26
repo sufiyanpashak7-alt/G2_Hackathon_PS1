@@ -1,0 +1,107 @@
+[
+  {
+    "speaker": "SPEAKER_00",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 0.0,
+    "end": 19.36,
+    "text": "Satya Nadella, thank you so much for doing this. I want to be very respectful of your time. The first question is the internet is abuzz with conversation of Satya Nadella said that SaaS is dead. Now I know you know that's not exactly what you said and the internet has lost nuance over time but I'd love for you to tell me how that shift happens from SaaS all the way to agents."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 19.84,
+    "end": 156.48,
+    "text": "Yeah I mean to me whenever there has been a real platform shift the core application architectures have changed right I mean if you look back let's go all the way back to when the relational database was born right that is the first time we really said oh wow I can separate out my data tier from my application right before that we were building these essentially ISAM databases right into the app and then we said no let's have relational algebra I have SQL I have data and then I can build my business logic on top of it then of course other platforms came like the web and what have you and then we said oh what's an end tier way to write applications how should I restructure my business logic I think that something of that scale on if not more is going to happen again with the application logic right and this time around the thing about agents is they are not going to be bound to essentially any one SaaS application and its data right so I'll have an agentic sort of view where the task the intent and I will go operate uh and orchestrate uh all the logic across multiple SaaS applications right I'll go call a bunch of ap through tools use so I'll call a bunch of APIs I will in fact more I'll post train my model to know about multiple SaaS applications in the agent tier and so that's what's going to happen so I think what will happen is these crud I mean SaaS applications are a crud database with a lot of business logic so the crud database will then get orchestrated outside of the business logic tier of just the SaaS application is what I mean is going to happen like right now in my own use case I go to copilot I say at sales which is actually touching dynamic CRM brings back whatever account information then it brings back information from office 365 I put it into pages I shared it with people the entire workflow right I never I mean everybody talks about the CRM database but nobody uses it because you know when was the last time I logged into CRM never except now I'm every day querying my CRM database because it's so much easier because it's one agent away and it's working with all the other agents so that is what's going to be the change"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 156.48,
+    "end": 161.68,
+    "text": "and when you're hiring people I think in the future you'll now hire people plus you know their workflows that's"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 161.68,
+    "end": 184.82,
+    "text": "exactly right and in fact that's a way to think about it it's the swarm of agents uh I mean it in a prosaic level I kind of look at it and say it's not like when you hire a data analyst you don't you hire them and their spreadsheets yeah that's kind of what it is right so it's like agents are going I think two years from now we're going to say yeah agents yeah I build them like all day like I build docs and spreadsheets and I think that's going to come"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 184.82,
+    "end": 185.56,
+    "text": "with a basket of them"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 185.56,
+    "end": 209.78,
+    "text": "there you go I have a basket of my agents and you know like get it like I already see that right like you know every SharePoint like then like I have a leadership meeting uh and leadership team in which there's like all these documents the best grounding data is all in there so I just have a simple agent now which is a SharePoint agent that I'm always addressing and it's fantastic not to just to have to go to a separate entity and not you know query it but to have it right there"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 209.78,
+    "end": 237.92,
+    "text": "a follow -up question here is how does India stay competitive as this changes because we look at when the LLMs first came out first became popular uh we always said that if India can build foundational models and sort of do what the West has done that'll be an advantage for us but we're now starting to see that many of those get commoditized and we're starting to see that the real mode is the ability to keep coming up with breakthroughs if you had to pick something that India can do now that is still defensible in the next few years what would that be yeah but like it's"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 237.92,
+    "end": 360.06,
+    "text": "not just a uh India comment because it's a comment for all of us right I mean you know at the end of the day um I think you really want to take what may be commodity and then do higher value and then if that higher value thing becomes commodity you have to be ready to commoditize that and move on to the next because that's the thing in tech right there is no franchise value right so whenever you think quote unquote these moats and so on are really overstated uh sometimes because you can't really fall in love with your own mode because it'll get attacked that said I think India has tremendous opportunity right if I think about uh the total developer community here the entrepreneurial energy here the application space right when I think about all this quick commerce work that's happening that's pretty unique so whoever builds you know AI applied to that here SaaS companies out of here nearly taking the business model disruption even right I mean I think the next generation SaaS company that says you know what I'm going to embrace these agents uh in fact I'll expose them as first -class agents right into co -pilot in fact change even my business model around it that's a massive opportunity in fact it's a massive attack vector on any existing SaaS company uh that may have a massive moat quote unquote right so I think that things like that uh and by the way even on the LLM space right you know there's the design space is not narrow uh when I talk to customers that's why we are building out foundry such that we can even be distribution for people who are building purpose -built models for industries you're giving them customers yeah so yeah we're going to bring them customers but also you can build a great LLM uh or a great foundation model uh for different sciences uh for different industries for different roles that are optimized for cogs for latency uh so I think the design space is large enough uh that it may not be just this one model that rules them all uh but there will be in every layer of the tech stack opportunities for innovation that's"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 360.06,
+    "end": 377.26,
+    "text": "fantastic I want to ask you a more personal question let's say if you were 25 years old you were sitting out of India let's say you're an engineer by training and you're seeing all of this happen you're seeing all these new models come out you're also seeing the ambiguity that you and everyone else are facing right how would you tackle that how would you upskill if you were young again"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 377.26,
+    "end": 467.42,
+    "text": "that's a great one you know in fact the way i think um one has to deal with both the pace and the scale of innovation is to be very good at sampling with agility is what i describe it like so that means for example the guidance i give ourselves as a company is keep on the frontier and be ready for the next drop so experiment yeah not experiment like it's kind of like you want to work in multiple gears so you're all the time sort of looking at what's coming and saying what is the impossible thing that i can make possible with what's coming while i am then making what i built yesterday optimal optimized for cogs for latency for deployment so that two gears you have to simultaneously work on it so i mean experimentation is obviously part of it but that you can't say i'm going to build this and then i'll go to next you're simultaneously working with some frontier thing where you're making something that is impossible today more possible because of what's coming while you're optimizing that i think is the way at least as a software developer you have to sort of work in this age of ai more so like even in most law like you know we used to do that but this is sort of you know when every six months every three months when the performance is doubling that's a like even for tech that's not something we're used to"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 467.42,
+    "end": 490.9,
+    "text": "yeah i mean i can give an example of this i just tried trellis which is your texture 3d model and i was blown away i was like this is so good and i was able to try it on my local computer and i said imagine this in two years it's sort of like the gpd 3 .5 right now and then two years is going to get good are there any other things that you've seen in research level or the demo level where you've seen it and you think it's going to play out but in five years i"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 490.9,
+    "end": 558.12,
+    "text": "think the thing that i'm most excited about or um is on what will happen when you know this particular model architecture or other model architecture breakthroughs will have on science right i mean if you sort of start saying wow if like even start with chemistry right we now have good models for doing novel um new materials right i mean in material science like when i think about our data center and we say hey we want to build a more sustainable future whether it's steel or whatever it's all about material science so having models that impact chemistry biology is probably the hardest that's where i think we're very excited about even some of the new models that we've built uh for doing you know molecular dynamics right which is one of the you know like one thing is to you know be able to model a protein structure but to be able to then model the entire dynamic nature of a molecule that i think is going to be breakthrough in something like drug discovery so science probably will be the biggest especially the combination of progress in ai and ai for science and maybe quantum that to me might be the next big breakthrough uh where science itself"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 558.12,
+    "end": 587.74,
+    "text": "is computed interesting i have one last question right which is you spoke about how these models are getting better every three months every four months but i've noticed a problem with legacy businesses i meet people who say i tried this model a year ago it was meh it had hallucination and then they never give it another shot and this seems to be a problem right which is a bunch of people use a specific type of model many years ago or many months ago and they don't try it again what's the best method what what's your advice to them"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 587.74,
+    "end": 660.56,
+    "text": "yeah and that would be a big mistake right so which is in some sense you really want to as i said that's why you want to be able to find some place where you can deploy something um and then it's path dependent right all strategy is path dependent if you don't get started you will never get shots on goal yeah and like one of my uh your friends once says to me you can never get fit by watching others go to the gym so you got better me in the gym every day lifting weights uh if you want to have a shot so i think the best way to do it is sample the best you know figure out how to take the most high ambitious scenario and then start deploying at scale what makes sense for you from an economics and scenario perspective if you care about hallucination there are a thousand ways to get rid of hallucinations like you have grounding now yeah that's right grounding is one but quite frankly if really you don't want to use an llm go use just regular machine learning right if that is like if you're so worried about sort of the 99 .9 percentile don't use some of these things where there are air bonds because that's why i think evals are important and really being driven by what's your air bound for humans or for models and then using that as the real criteria but then keep at it"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "audio_file": "Satya Nadella on the Future of SaaS, How 2025 is the year of Agents, Advice for Indian Engineers.mp3",
+    "start": 660.56,
+    "end": 669.94,
+    "text": "interesting thank you so much this was an amazing conversation i learned a lot i'm sure people watching learned a lot as well thank you satya absolutely such a pleasure thank you"
+  }
+]

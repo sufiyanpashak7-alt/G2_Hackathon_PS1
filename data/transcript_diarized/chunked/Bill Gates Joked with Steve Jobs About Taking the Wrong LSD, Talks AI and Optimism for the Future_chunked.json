@@ -1,0 +1,194 @@
+[
+  {
+    "chunk_id": "chunk_001",
+    "speaker": "SPEAKER_01",
+    "start_time": 1.74,
+    "end_time": 31.59,
+    "text": "I always like having you on the show. I actually just thought of this seconds before it. I apologize. Here, I'll just put this. No one... You didn't see anything. You didn't see anything. Welcome back to the show. I always love having you here. Source Code is out today. Congratulations on this. It's fantastic. You worked hard on this. It was kind of fun to look back. Yeah, I don't do that much. Yeah. Why did you want to do this, like, looking all the way back just to your upbringing?",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_002",
+    "speaker": "SPEAKER_00",
+    "start_time": 0.0,
+    "end_time": 54.03,
+    "text": "Bill, welcome back. You know, I'll turn 70 this year. Microsoft turns 50. My foundation will be 25. So, you know, it's time I look back a tiny bit and thought through, you know, the incredible luck I had with parents and timing and so many things that set me up for an amazing life. Yeah,",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_003",
+    "speaker": "SPEAKER_01",
+    "start_time": 54.21,
+    "end_time": 66.39,
+    "text": "you do talk about your mom a lot in this book and what a big influence your mom. I know everyone's mom is. I love my mom, too. Yeah. What examples do you have of anything you remember, your mom being very influential in you?",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_004",
+    "speaker": "SPEAKER_00",
+    "start_time": 66.69,
+    "end_time": 83.41,
+    "text": "Well, when other families would come over, you know, we'd talk about what their kids were up to. And then after they left, my mom would say, oh, they must feel terrible their kid didn't go to college or, you know, they're not doing very well. And I'd be like, oh, okay. I get what you want me to do. yeah.",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_005",
+    "speaker": "SPEAKER_01",
+    "start_time": 83.75,
+    "end_time": 97.99,
+    "text": "Yeah, that was a side way of saying, you better go to college, yeah. And then you went and dropped out. I did. Yeah, good for you. Good for you. I went on leave, actually. Keep her on her toes. Yeah, you did. You actually wrote a nice letter and you went on leave. You go, I'm starting a company with my buddy. I",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_006",
+    "speaker": "SPEAKER_00",
+    "start_time": 97.99,
+    "end_time": 115.13,
+    "text": "might be back if it doesn't work. Yeah, you did say that. It's kind of cool. They have the letter in here. I also thought it was very interesting, too, a lot of the Boy Scout stuff. Yeah, I got to do a lot of hiking in the Seattle area. I wasn't very good at it, but I loved the camaraderie. Yeah, me, too. I wasn't",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_007",
+    "speaker": "SPEAKER_01",
+    "start_time": 115.13,
+    "end_time": 144.95,
+    "text": "a Boy Scout. My parents didn't let me try out for it, yeah, or something. I didn't get to, but I got all those magazines and learned how to tie knots and stuff. That's pretty handy. I tried camping out once in my backyard. And I know, that was my big adventure outside. And my mom came out midnight, like, middle of the night and said, Jimmy, come back inside. This is scary. It's scaring me. Also, I want to say the proceeds from this book is going to United Way worldwide. United",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_008",
+    "speaker": "SPEAKER_00",
+    "start_time": 144.95,
+    "end_time": 159.43,
+    "text": "Way because of your mom? Yeah, my parents were both very involved. And the whole volunteering thing, giving back to the community, they set an example that I'm trying to live up to. Yeah, you really are, yeah.",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_009",
+    "speaker": "SPEAKER_01",
+    "start_time": 160.41,
+    "end_time": 174.16,
+    "text": "You're doing a good job. 50th anniversary of Microsoft. You look back at this, you go, man, oh, man. I mean, you are Bill Gates. You became, like, before you, who",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_010",
+    "speaker": "SPEAKER_00",
+    "start_time": 174.16,
+    "end_time": 215.66,
+    "text": "would you even think, who'd you look up to? Or who was... Oh, there were scientists like Richard Feynman, who were amazing. There was no computer industry except for these big, expensive machines. So it was IBM was this company. And people thought computers were kind of against them because they were, you know, only for big companies. And then when the personal computer came, it was more like, okay, power to the people. And we got to be part of that, you know, because by age 18, I'd done a lot of software, and we saw the miracle of the chip and that it would change everything. You said that everyone's going to have a personal computer, and people laughed at you, and they go, yeah, right. We'll see.",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_011",
+    "speaker": "SPEAKER_01",
+    "start_time": 215.88,
+    "end_time": 231.68,
+    "text": "Yeah, exactly. And now everyone's got one in their pocket now, I guess, right? Yeah, no, does it fuel you to work harder when people doubt you and say, no, you can't do this? I",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_012",
+    "speaker": "SPEAKER_00",
+    "start_time": 220.52,
+    "end_time": 256.36,
+    "text": "we used to say, on every desk in every home. And now, you know, we've gone even far beyond that. Yeah, think so. You know, I think kind of proving to my mom that I could exceed her expectation. And then just the dream of, okay, wouldn't it be cool? I wanted to have a personal computer. And my friend Paul Allen and I in the early years, you know, figured out, hey, we see this and other people don't. We don't know why, but let's go show them.",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_013",
+    "speaker": "SPEAKER_00",
+    "start_time": 259.12,
+    "end_time": 273.82,
+    "text": "He was a Hendrix fan. He played the guitar. Yeah, experimented with LSD. And he made me do the same thing. Yeah. Did that? Hold on. I don't want to have no flashbacks.",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_014",
+    "speaker": "SPEAKER_00",
+    "start_time": 277.1,
+    "end_time": 310.6,
+    "text": "But what was that like? Do you remember the experience? It was a little crazy. The funny thing was, later, when Steve Jobs was kind of denigrating me, he said, oh, Bill Gates has no design taste. He should have taken acid. And I was like, wait a minute. I took the acid. It was just that I got the batch that's about code, not about design. So... You got the weird batch. He got a very different batch than I did.",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_015",
+    "speaker": "SPEAKER_01",
+    "start_time": 256.52,
+    "end_time": 323.92,
+    "text": "Yeah. He sounds like fun, by the way, Paul Allen. I don't want to have no flashbacks. But we wouldn't recommend anyone go out there. No, I actually don't. No. Because it's like you think you've solved the problems of the world, and then you don't, really? Or what was It turns out",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_016",
+    "speaker": "SPEAKER_00",
+    "start_time": 323.92,
+    "end_time": 360.32,
+    "text": "it's all kind of fake. Yeah. And I like it when my mind works well. And I was kind of worried afterwards that I'd mess up my mind. Oh, interesting. You know, and erase all my knowledge. Oh, wow. So even though I was a big risk taker, then I thought, no more of that. I'm going to just work super hard. In my 20s, I didn't take weekends or vacation. It was kind of over the top, but it was super fun. And you just live in your office? Yep. I knew everybody's license plate numbers, so I knew when they came, when they went home.",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_017",
+    "speaker": "SPEAKER_00",
+    "start_time": 366.22,
+    "end_time": 397.0,
+    "text": "then, she had relaxed a little bit. Yeah. You know, she always said, okay, you need me for this or that. And so we had some intensity in our relationship. Both she and my dad, in their own way, were fantastic. My dad more by setting a model of calmness and showing, you know, you really can be on top of the world. And my mom by kind of pushing me, even though I pushed back. Oh,",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_018",
+    "speaker": "SPEAKER_01",
+    "start_time": 362.0,
+    "end_time": 419.08,
+    "text": "And what did mom say when she found out you were doing this? She's like, this is an interesting kid. By that's good. I think you did okay. Yeah. When everyone's talking about AI and that's the big topic, everyone's like, how it's going to take over and all this stuff. And it's bad or it's good or we don't know. What are the pros and cons for, in layman's terms, for someone like me?",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_019",
+    "speaker": "SPEAKER_00",
+    "start_time": 419.3,
+    "end_time": 490.72,
+    "text": "Yeah, so the era we've come to is sort of the vision that computing was expensive and it basically became free. The era that we're just starting is that intelligence is rare. You know, a great doctor, a great teacher. And with AI, over the next decade, that will become free, commonplace. You know, great medical advice, great tutoring. And it's kind of profound because it solves all these specific problems. Like we don't have enough doctors or, you know, mental health professionals. But it brings with it kind of so much change, you know, what will jobs be like? Should we, you know, just work like two or three days a week? So I love the way it will drive innovation forward. But I think, you know, it's a little bit unknown. Will we be able to shape it? And so, legitimately, people are like, wow, this is a bit scary. It's completely new territory. I mean, will we still need humans? Not for most things. You know, we'll decide. I mean, hosting a talk show, definitely.",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_020",
+    "speaker": "SPEAKER_00",
+    "start_time": 492.02,
+    "end_time": 515.08,
+    "text": "really? Well, we'll decide, you know, like baseball. We won't want to watch computers play baseball. That's correct. Yeah. And, you know, so there will be some things that we reserve for ourselves. But in terms of making things and moving things and growing food, over time, those will be basically solved problems.",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_021",
+    "speaker": "SPEAKER_00",
+    "start_time": 522.0,
+    "end_time": 546.54,
+    "text": "a two -year -old and a three -month -old. That's pretty awesome. That's cute, huh? Boy, girl? Two girls. Two girls? here in New York. Really? Yeah. Do you like being a grandpa? It's fun. I think the best part is yet to come, because I like to read books to them, eventually take them on trips. But even the two -year -olds are kind of a blast.",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_022",
+    "speaker": "SPEAKER_01",
+    "start_time": 491.16,
+    "end_time": 558.66,
+    "text": "You're going to need, Yeah. Which we need to solve problems. Because you got some grandkids. I do. I have Oh, that's the best. Both Oh, that's fantastic. Now, I want to ask you, too, because there's a nice thing about being optimistic about the future. What keeps you optimistic, and what could you tell everyone to stay optimistic about the future?",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_023",
+    "speaker": "SPEAKER_00",
+    "start_time": 559.24,
+    "end_time": 627.64,
+    "text": "Well, I think the ability to improve health, even Alzheimer's, which has been tough, all the diseases that are still in the developing countries, like malaria, HIV, polio, we're very close. I spend a lot of time on that. You really do. With luck, in the next three or four years, that will become the second disease that's completely gone. And even in areas like climate, you know, I think we can innovate. We need to make really cheap green products. And asking people to pay extra, they should pay extra for clean products. But if you take the whole globe, they probably won't do it. And so the way to kind of get there is to innovate so the clean one is cheaper than the dirty one. And there's a lot of great stuff coming along. So I'm a little more optimistic about that than people who don't get to see that innovation pipeline.",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_024",
+    "speaker": "SPEAKER_01",
+    "start_time": 627.9,
+    "end_time": 632.88,
+    "text": "Yeah. All right. I love it. More with Bill Gates when we come back, everybody. I want to ask some more questions. Come on back.",
+    "is_overflow_split": false
+  }
+]
