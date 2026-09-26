@@ -3,60 +3,52 @@
     "chunk_id": "chunk_001",
     "speaker": "SPEAKER_01",
     "start_time": 0.0,
-    "end_time": 41.06,
-    "text": "Sundar, thank you so much for having me. It's an absolute honor to be here. I've seen so many keynotes of yours, right? Like, through the screen. And it's a fanboy moment for me to be here, you know, with you right across me. And let me just get started, right? I think somebody here mentioned that this is AI Coachella. And it felt like AI Coachella. Madness, right? So many new things that came out. The engineer and the creator in me is super excited. But I come from India and I feel like, you know, it feels like this is an AI race and Silicon Valley is, like, moving really fast. I feel you're sort of getting left behind. If you were an engineer back home in India or you were an entrepreneur there,",
+    "end_time": 36.92,
+    "text": "Sundar, thank you so much for having me. It's an absolute honor to be here. I've seen so many keynotes of yours, right? Like, through the screen. And it's a fanboy moment for me to be here, you know, with you right across me. And let me just get started, right? I think somebody here mentioned that this is AI Coachella. And it felt like AI Coachella. Madness, right? So many new things that came out. The engineer and the creator in me is super excited. But I come from India and I feel like, you know, it feels like this is an AI race and Silicon Valley is, like, moving really fast. I feel you're sort of getting left behind.",
     "is_overflow_split": false
   },
   {
     "chunk_id": "chunk_002",
     "speaker": "SPEAKER_00",
-    "start_time": 41.24,
-    "end_time": 56.8,
-    "text": "what would you do to keep up? Well, first of all, good to talk to you, Varun. And congrats on a great channel and the work you do. Look, I see it a bit differently when I think about AI,",
+    "start_time": 37.42,
+    "end_time": 167.52,
+    "text": "If you were an engineer back home in India or you were an entrepreneur there, what would you do to keep up? Well, first of all, good to talk to you, Varun. And congrats on a great channel and the work you do. Look, I see it a bit differently when I think about AI, even as Google thinks about AI. For us now, India is one of our top markets, right? We have, both for many of our products, it's our largest user base. We have large teams in India. So we've been thinking about AI in the context of India. The second is, unlike past technologies, the underlying APIs for AI are available everywhere, including India. And so I see developers already using it. So I think India is a well -positioned. I think, in terms of, I mean, I would, what AI offers is for anyone to use it and solve, build applications and solve problems. So I think, to me, for India, this is a moment. India has an extraordinary base of developers, engineering talent. So for them to understand this trend and build applications in a way that makes sense, either for India or for the world, from India, I think both are exciting possibilities. So I would view it that way. From a Google perspective, I'm excited because one of the things we are doing with AI is really breaking barriers. I think the fact that all our new models are multimodal, so they can reason across text, images, video. So which means the way it'll come to India is you could be watching any video you want in any language, even if the content was not, didn't exist in your language. Or people who can just look at things and ask questions. So that is the future. So if anything, I viewed as part of continuing to help digital India, you know, getting more and more people there, comfortable with technology and giving them access to technology. So I think it's huge.",
     "is_overflow_split": false
   },
   {
     "chunk_id": "chunk_003",
-    "speaker": "SPEAKER_00",
-    "start_time": 59.38,
-    "end_time": 167.52,
-    "text": "For us now, India is one of our top markets, right? We have, both for many of our products, it's our largest user base. We have large teams in India. So we've been thinking about AI in the context of India. The second is, unlike past technologies, the underlying APIs for AI are available everywhere, including India. And so I see developers already using it. So I think India is a well -positioned. I think, in terms of, I mean, I would, what AI offers is for anyone to use it and solve, build applications and solve problems. So I think, to me, for India, this is a moment. India has an extraordinary base of developers, engineering talent. So for them to understand this trend and build applications in a way that makes sense, either for India or for the world, from India, I think both are exciting possibilities. So I would view it that way. From a Google perspective, I'm excited because one of the things we are doing with AI is really breaking barriers. I think the fact that all our new models are multimodal, so they can reason across text, images, video. So which means the way it'll come to India is you could be watching any video you want in any language, even if the content was not, didn't exist in your language. Or people who can just look at things and ask questions. So that is the future. So if anything, I viewed as part of continuing to help digital India, you know, getting more and more people there, comfortable with technology and giving them access to technology. So I think it's huge.",
+    "speaker": "SPEAKER_01",
+    "start_time": 167.94,
+    "end_time": 195.36,
+    "text": "And you were talking about software engineers, right? Like, I don't know if you know this, but there's an entire industry in India built to help young Indians crack the FAANG into you. And, you know, these are generally very smart kids. But unfortunately, you know, they're just glazing over the fundamentals and then rote learning, data structures and algorithms. I don't know if you've heard of this. And now they see a big shift coming, right? Gemini can write code. You'll have a pair program available pretty quickly. Do you have advice for these people?",
     "is_overflow_split": false
   },
   {
     "chunk_id": "chunk_004",
-    "speaker": "SPEAKER_01",
-    "start_time": 56.96,
-    "end_time": 200.04,
-    "text": "even as Google thinks about AI. And you were talking about software engineers, right? Like, I don't know if you know this, but there's an entire industry in India built to help young Indians crack the FAANG into you. And, you know, these are generally very smart kids. But unfortunately, you know, they're just glazing over the fundamentals and then rote learning, data structures and algorithms. I don't know if you've heard of this. And now they see a big shift coming, right? Gemini can write code. You'll have a pair program available pretty quickly. Do you have advice for these people? How is it, how do you get out of the competitive exam mindset with all these shifts",
+    "speaker": "SPEAKER_00",
+    "start_time": 195.36,
+    "end_time": 287.32,
+    "text": "How is it, how do you get out of the competitive exam mindset with all these shifts coming about? I think it's a great question. I hope, I think real success comes from understanding things in a deeper way, right? And almost tempted to go back to the movie Three Idiots or something like that. And, like, you know, there's a scene in there, I think, when they ask Amir Khan the definition of a motor. And, like, you know, there's a version you just describe what a motor is. And there's a version where you actually understand what a motor is. So I view it's the same way. It quite doesn't change. You have to, you know, understand the technology in a deeper way. If you do, you can transition. You can do things. Programming languages may change. The tools you use may evolve. But you're understanding the stack in a much deeper way. So that's what I would encourage people to do always. Programming is going to get easier in a way that's better, right? You know, all of us are already thankful we don't have to write an assembly code or, you know, we are used to higher level abstractions. AI will help with even higher level abstractions. You're going to use natural language. You're going to tell sometime. Hey, can you just debug this code for me and explain what happened and it'll do it. It's just going to make you a better programmer. So I think it's more important to, you know, go deeper rather than trying to, like, learn the thing of that moment. Yeah.",
     "is_overflow_split": false
   },
   {
     "chunk_id": "chunk_005",
-    "speaker": "SPEAKER_00",
-    "start_time": 200.04,
-    "end_time": 287.32,
-    "text": "coming about? I think it's a great question. I hope, I think real success comes from understanding things in a deeper way, right? And almost tempted to go back to the movie Three Idiots or something like that. And, like, you know, there's a scene in there, I think, when they ask Amir Khan the definition of a motor. And, like, you know, there's a version you just describe what a motor is. And there's a version where you actually understand what a motor is. So I view it's the same way. It quite doesn't change. You have to, you know, understand the technology in a deeper way. If you do, you can transition. You can do things. Programming languages may change. The tools you use may evolve. But you're understanding the stack in a much deeper way. So that's what I would encourage people to do always. Programming is going to get easier in a way that's better, right? You know, all of us are already thankful we don't have to write an assembly code or, you know, we are used to higher level abstractions. AI will help with even higher level abstractions. You're going to use natural language. You're going to tell sometime. Hey, can you just debug this code for me and explain what happened and it'll do it. It's just going to make you a better programmer. So I think it's more important to, you know, go deeper rather than trying to, like, learn the thing of that moment. Yeah.",
+    "speaker": "SPEAKER_01",
+    "start_time": 288.04,
+    "end_time": 307.38,
+    "text": "Interesting. And, you know, I don't know if you've spent time on Twitter, like, recently. But a lot of people, you know, there's a word for startups being built on top of models like Gemini, right? It's kind of derogatory in nature. It's called a wrapper startup. You've heard of wrapper startups, right? You have thoughts on that? Like, I feel like if you're built for use cases, it should be commercially viable.",
     "is_overflow_split": false
   },
   {
     "chunk_id": "chunk_006",
-    "speaker": "SPEAKER_01",
-    "start_time": 288.04,
-    "end_time": 308.0,
-    "text": "Interesting. And, you know, I don't know if you've spent time on Twitter, like, recently. But a lot of people, you know, there's a word for startups being built on top of models like Gemini, right? It's kind of derogatory in nature. It's called a wrapper startup. You've heard of wrapper startups, right? You have thoughts on that? Like, I feel like if you're built for use cases, it should be commercially viable. But we",
+    "speaker": "SPEAKER_00",
+    "start_time": 307.52,
+    "end_time": 365.54,
+    "text": "But we would love to hear it from you. So there are going to be APIs and people are going to use APIs. I think that is the way things will get built. So, you know, it's not bad to be a wrapper. It's just you shouldn't be a shallow wrapper where I think you have to think about where the models are going and make sure you aren't doing something which is just in the next version of the model will be done natively by the model itself. Got it. That will have a short shelf life. But if you're using AI to solve a real -world use case in a way which involves a few more things you're doing or chaining multiple models, you know, you have to think about the value you're adding on top of the model in whatever way. Right? Chaining multiple things together. And also thinking about the forward curve of the models and make sure the models just aren't going to do that. So I think it's a combination of both of them. Yeah.",
     "is_overflow_split": false
   },
   {
     "chunk_id": "chunk_007",
-    "speaker": "SPEAKER_00",
-    "start_time": 308.0,
-    "end_time": 365.54,
-    "text": "would love to hear it from you. So there are going to be APIs and people are going to use APIs. I think that is the way things will get built. So, you know, it's not bad to be a wrapper. It's just you shouldn't be a shallow wrapper where I think you have to think about where the models are going and make sure you aren't doing something which is just in the next version of the model will be done natively by the model itself. Got it. That will have a short shelf life. But if you're using AI to solve a real -world use case in a way which involves a few more things you're doing or chaining multiple models, you know, you have to think about the value you're adding on top of the model in whatever way. Right? Chaining multiple things together. And also thinking about the forward curve of the models and make sure the models just aren't going to do that. So I think it's a combination of both of them. Yeah.",
-    "is_overflow_split": false
-  },
-  {
-    "chunk_id": "chunk_008",
     "speaker": "SPEAKER_01",
     "start_time": 366.42,
     "end_time": 410.76,
@@ -64,23 +56,23 @@
     "is_overflow_split": false
   },
   {
-    "chunk_id": "chunk_009",
+    "chunk_id": "chunk_008",
     "speaker": "SPEAKER_00",
     "start_time": 411.64,
     "end_time": 469.72,
-    "text": "Very much so, right? I think particularly as people are thinking about, like, take marketing campaigns, for example. agencies, advertising agencies, where they actually want to push the frontier, you know? There are two ways you can imagine using it. Using it to just kind of take the mundane tasks and make it easier. But there are also people who want these models to come up with things which otherwise they wouldn't have done. And there you're exactly right. I think hallucination is a feature, not a bug, right? And that's the way I would think about these models for that purpose. And if you go back to the AlphaGo game, there was a moment in which the model moved 37, I think, yeah, when it made that move, which no human prior to it had done before, right? It was a creative, intuitive way of playing the Go game. And that's what you hope these models will do because they think in an unconstrained way.",
+    "text": "Very much so, right? I think particularly as people are thinking about, like, take marketing campaigns, for example. We have good projects underway with, like, creative agencies, advertising agencies, where they actually want to push the frontier, you know? There are two ways you can imagine using it. Using it to just kind of take the mundane tasks and make it easier. But there are also people who want these models to come up with things which otherwise they wouldn't have done. And there you're exactly right. I think hallucination is a feature, not a bug, right? And that's the way I would think about these models for that purpose. And if you go back to the AlphaGo game, there was a moment in which the model moved 37, I think, yeah, when it made that move, which no human prior to it had done before, right? It was a creative, intuitive way of playing the Go game. And that's what you hope these models will do because they think in an unconstrained way.",
+    "is_overflow_split": false
+  },
+  {
+    "chunk_id": "chunk_009",
+    "speaker": "SPEAKER_01",
+    "start_time": 469.72,
+    "end_time": 510.04,
+    "text": "So Google got into a little bit of trouble recently with, you were generating historical characters with some racial inaccuracies. Now, I feel like typically that should have stopped a company like Google or at least really slowed it down. And it definitely has slowed down some of your competitors. They're no longer shipping, like, publicly usable products. But I feel it's not stopped you this time. And I feel today everyone on the internet is a critic. Like, even if you do your best work and you really put intent behind it and you're being transparent about everything, people are complaining. Do you feel like just the number of people complaining on the internet has gone up? And that's also given you air cover to ship boldly?",
     "is_overflow_split": false
   },
   {
     "chunk_id": "chunk_010",
-    "speaker": "SPEAKER_01",
-    "start_time": 420.52,
-    "end_time": 510.04,
-    "text": "We have good projects underway with, like, creative So Google got into a little bit of trouble recently with, you were generating historical characters with some racial inaccuracies. Now, I feel like typically that should have stopped a company like Google or at least really slowed it down. And it definitely has slowed down some of your competitors. They're no longer shipping, like, publicly usable products. But I feel it's not stopped you this time. And I feel today everyone on the internet is a critic. Like, even if you do your best work and you really put intent behind it and you're being transparent about everything, people are complaining. Do you feel like just the number of people complaining on the internet has gone up? And that's also given you air cover to ship boldly?",
-    "is_overflow_split": false
-  },
-  {
-    "chunk_id": "chunk_011",
     "speaker": "SPEAKER_00",
     "start_time": 510.18,
     "end_time": 571.66,
@@ -88,7 +80,7 @@
     "is_overflow_split": false
   },
   {
-    "chunk_id": "chunk_012",
+    "chunk_id": "chunk_011",
     "speaker": "SPEAKER_01",
     "start_time": 571.92,
     "end_time": 586.76,
@@ -96,7 +88,7 @@
     "is_overflow_split": false
   },
   {
-    "chunk_id": "chunk_013",
+    "chunk_id": "chunk_012",
     "speaker": "SPEAKER_00",
     "start_time": 586.96,
     "end_time": 613.86,

@@ -4,215 +4,173 @@
     "speaker": "SPEAKER_00",
     "start_time": 0.0,
     "end_time": 28.9,
-    "text": "I didn't realize you had this many people. Oh, yeah, there's a lot of people here. Yeah. How Wow. 6 On that, every time I say my height, there's a subreddit where they, like, compare people's heights. And, like, now that I said that, when I open up Reddit, it's going to be them comparing me to other celebrities, and they're always... Their theory is that I'm 6 '2\", and I lie about it, and I'm just like... And so now I have to read theories about that all day.",
-    "is_overflow_split": false
+    "text": "I didn't realize you had this many people. Oh, yeah, there's a lot of people here. Yeah. [SPEAKER_01: \"How tall are you, Mr. B? You're tall.\"] Wow. [SPEAKER_01: \"6 '4\". Oh, no. 6 '4\"? Yeah.\"] On that, every time I say my height, there's a subreddit where they, like, compare people's heights. And, like, now that I said that, when I open up Reddit, it's going to be them comparing me to other celebrities, and they're always... Their theory is that I'm 6 '2\", and I lie about it, and I'm just like... And so now I have to read theories about that all day.",
+    "is_overflow_split": false,
+    "absorbed_interjection": true
   },
   {
     "chunk_id": "chunk_002",
-    "speaker": "SPEAKER_00",
-    "start_time": 32.58,
-    "end_time": 40.12,
-    "text": "Um, I mean, Jimmy or Mr. Beast? Just call me Mr. Beast. Okay. Yeah, Mr. Beast. Let's have some fun. Let's get crazy. All right, let's get crazy. I'll do it. Mr.",
-    "is_overflow_split": false
+    "speaker": "SPEAKER_01+SPEAKER_00",
+    "start_time": 28.9,
+    "end_time": 96.32,
+    "text": "yeah, so it was definitely... By the way, what should I call you? Um, I mean, Jimmy or Mr. Beast? Just call me Mr. Beast. Okay. Yeah, Mr. Beast. Let's have some fun. Let's get crazy. All right, let's get crazy. I'll do it. Mr. [SPEAKER_01: \"Beast. And Mr. Beast came from, what, an Xbox?\"] Yeah, so when you create an account, it just gives you a random name. And it gave me, like, Mr. Beast 6 ,000, and I was like, good enough, Mr. Beast. So you just lost the 6 ,000. Yeah, because everyone... Once I started, like, getting views on my videos, everyone was like, what's the 6 ,000? I was like, I don't know. And then after a while, I was just like, okay, I'll just get rid of it. Did you consider any other names besides Mr. Beast? That's a great question. So actually, because I do so many, like, weird different things. At one point when I was in, like, high school, I had a little bit of, like, a mental breakdown. I was like, should my channel be Mr. Random? Because everything I do is random. And I almost switched it there. But then I, like, Mr. Random. Because, like, one day, I'm in the pyramids. The next day, I'm buried alive. The next day, we're, you know, giving a million people food. And I was like, it's always random. This is more on brand. That's good. And it's amazing what you do. Well, I mean, you don't have to clap, because I killed It died. Mr. Beast is good. Yeah, it worked out. Mr.",
+    "is_overflow_split": false,
+    "is_qa_pair": true
   },
   {
     "chunk_id": "chunk_003",
-    "speaker": "SPEAKER_01",
-    "start_time": 4.22,
-    "end_time": 44.7,
-    "text": "tall are you, Mr. B? You're tall. '4\". Oh, no. 6 '4\"? Yeah. yeah, so it was definitely... By the way, what should I call you? Beast. And Mr. Beast came from, what, an Xbox?",
-    "is_overflow_split": false
+    "speaker": "SPEAKER_01+SPEAKER_00",
+    "start_time": 96.36,
+    "end_time": 113.96,
+    "text": "Random sounds like an offspring Stranger Things character that we don't talk about. I think a good Marvel villain. Yeah, this is your first time on the show, so I thought we can get to know you a little bit. Okay. You first started posting videos, was it on YouTube, 15 years ago? Yeah, when I was 11, 15, 16 years ago, yeah.",
+    "is_overflow_split": false,
+    "is_qa_pair": true
   },
   {
     "chunk_id": "chunk_004",
-    "speaker": "SPEAKER_00",
-    "start_time": 45.04,
-    "end_time": 96.54,
-    "text": "Yeah, so when you create an account, it just gives you a random name. And it gave me, like, Mr. Beast 6 ,000, and I was like, good enough, Mr. Beast. So you just lost the 6 ,000. Yeah, because everyone... Once I started, like, getting views on my videos, everyone was like, what's the 6 ,000? I was like, I don't know. And then after a while, I was just like, okay, I'll just get rid of it. Did you consider any other names besides Mr. Beast? That's a great question. So actually, because I do so many, like, weird different things. At one point when I was in, like, high school, I had a little bit of, like, a mental breakdown. I was like, should my channel be Mr. Random? Because everything I do is random. And I almost switched it there. But then I, like, Mr. Random. Because, like, one day, I'm in the pyramids. The next day, I'm buried alive. The next day, we're, you know, giving a million people food. And I was like, it's always random. This is more on brand. That's good. And it's amazing what you do. Well, I mean, you don't have to clap, because I killed It died. Mr. Beast is good. Yeah, it worked out. Mr. Random",
-    "is_overflow_split": false
+    "speaker": "SPEAKER_01+SPEAKER_00",
+    "start_time": 114.06,
+    "end_time": 178.1,
+    "text": "And you turned it into the most subscribed channel in history. Do you remember the first post that you did? Yeah, well, it's an interesting story. I was playing this Facebook game called Battle Pirates. None of you have ever heard of it. Like, no one plays this game. Battle Pirates? Yeah, Battle Pirates. I was a little kid. And some hacker, like, destroyed my base. And I was like, I want to get them banned. So I filmed it, like, with a little screen recorder, uploaded It got, like, 5 ,000 views. And the person did end up getting banned. Wow. And I was like, yo, this is sick. Yeah, and that kind of, I was like, this is kind of fun. And then it kind of snowballed into... The Internet's powerful. Yeah. I got lucky, because the first video got views. And I was like, oh, this is easy. And then the next, like, 500 videos, no views. What was the first video that took off after that? My proudest accomplishment. I counted to 100 ,000. Yeah, I literally just counted. One, two, three, four, five, six, seven. yeah, you could do the greatest. 11, 12, 16, 14. yeah. No breaks, nothing? Yeah, 40 hours straight. 40 hours of counting.",
+    "is_overflow_split": false,
+    "is_qa_pair": true
   },
   {
     "chunk_id": "chunk_005",
-    "speaker": "SPEAKER_01",
-    "start_time": 96.54,
-    "end_time": 111.88,
-    "text": "sounds like an offspring Stranger Things character that we don't talk about. I think a good Marvel villain. Yeah, this is your first time on the show, so I thought we can get to know you a little bit. Okay. You first started posting videos, was it on YouTube, 15 years ago? Yeah,",
-    "is_overflow_split": false
+    "speaker": "SPEAKER_01+SPEAKER_00",
+    "start_time": 178.34,
+    "end_time": 208.82,
+    "text": "What would make you want to do something like that? Well, if you want to know the truth, I was watching this Game of Thrones slash this other show called Naruto. And I was like, man, this is such a waste of time. Like, I'm not making money doing this. And I was like, how? I really, I thought about this. I'm not even joking. How can I make money while watching shows I like? And I was like, well, what if I watch it? I just record myself counting. And it worked out the entire time I was watching Game of Thrones and Naruto. But people don't know that. And it's just me counting. And so it looks like I'm just sitting there staring at a wall for, you know, 40 hours.",
+    "is_overflow_split": false,
+    "is_qa_pair": true
   },
   {
     "chunk_id": "chunk_006",
-    "speaker": "SPEAKER_00",
-    "start_time": 111.98,
-    "end_time": 178.42,
-    "text": "when I was 11, 15, 16 years ago, yeah. Yeah, well, it's an interesting story. I was playing this Facebook game called Battle Pirates. None of you have ever heard of it. Like, no one plays this game. Battle Pirates? Yeah, Battle Pirates. I was a little kid. And some hacker, like, destroyed my base. And I was like, I want to get them banned. So I filmed it, like, with a little screen recorder, uploaded It got, like, 5 ,000 views. And the person did end up getting banned. Wow. And I was like, yo, this is sick. Yeah, and that kind of, I was like, this is kind of fun. And then it kind of snowballed into... The Internet's powerful. Yeah. I got lucky, because the first video got views. And I was like, oh, this is easy. And then the next, like, 500 videos, no views. What was the first video that took off after that? My proudest accomplishment. I counted to 100 ,000. Yeah, I literally just counted. One, two, three, four, five, six, seven. yeah, you could do the greatest. 11, 12, 16, 14. yeah. No breaks? Nothing? Yeah, 40 hours straight. 40 hours of counting. What",
+    "speaker": "SPEAKER_01",
+    "start_time": 208.92,
+    "end_time": 212.84,
+    "text": "Yeah, and people are just clicking on it going, I can't believe this dude is counting to 100 ,000.",
     "is_overflow_split": false
   },
   {
     "chunk_id": "chunk_007",
     "speaker": "SPEAKER_00",
-    "start_time": 181.5,
-    "end_time": 209.02,
-    "text": "Well, if you want to know the truth, I was watching this Game of Thrones slash this other show called Naruto. And I was like, man, this is such a waste of time. Like, I'm not making money doing this. And I was like, how? I really, I thought about this. I'm not even joking. How can I make money while watching shows I like? And I was like, well, what if I watch it? I just record myself counting, and it worked out. The entire time, I was watching Game of Thrones and Naruto. But people don't know that, and it's just me counting. And so it looks like I'm just sitting there, staring at a wall for, you know, 40 hours. Yeah,",
+    "start_time": 212.96,
+    "end_time": 219.34,
+    "text": "Yeah, no, you're being too nice. They're more clicking like, what is this idiot doing? Like, what an absolute moron.",
     "is_overflow_split": false
   },
   {
     "chunk_id": "chunk_008",
     "speaker": "SPEAKER_01",
-    "start_time": 114.06,
-    "end_time": 212.84,
-    "text": "And you turned it into the most subscribed channel in history. Do you remember the first post that you did? would make you want to do something like that? and people are just clicking on it going, I can't believe this dude is counting to 100 ,000.",
+    "start_time": 219.7,
+    "end_time": 227.62,
+    "text": "You do so many fun things. Let me just read some of the titles of your videos. Oh, gosh. One is Stop This Train, Win a Lamborghini.",
     "is_overflow_split": false
   },
   {
     "chunk_id": "chunk_009",
-    "speaker": "SPEAKER_01",
-    "start_time": 219.74,
-    "end_time": 228.82,
-    "text": "You do so many fun things. Let me just read some of the titles of your videos. Oh, gosh. One is Stop This Train, Win a Lamborghini. Yep, that's a,",
+    "speaker": "SPEAKER_00",
+    "start_time": 227.62,
+    "end_time": 257.78,
+    "text": "Yep, that's a, that one of my favorite videos. Because we put a Lamborghini on train tracks, and then I gave someone my credit card. I said they could buy whatever they want. And if they stop the train before it gets the Lamborghini, basically derail it, they get to keep the Lamborghini. And so they built like concrete walls on the train tracks. They laid 18 wheelers. And then I sent a train like with a brick on the gas pedal, full speed at it. And then you see if the Lamborghini survives. how? I thought it was pretty cool.",
     "is_overflow_split": false
   },
   {
     "chunk_id": "chunk_010",
-    "speaker": "SPEAKER_00",
-    "start_time": 212.94,
-    "end_time": 257.78,
-    "text": "Yeah, no, you're being too nice. They're more clicking like, what is this idiot doing? Like, what an absolute moron. that one of my favorite videos. Because we put a Lamborghini on train tracks, and then I gave someone my credit card. I said they could buy whatever they want, and if they stop the train before it gets the Lamborghini, basically derail it, they get to keep the Lamborghini. And so they built, like, concrete walls on the train tracks. They laid 18 -wheelers, and then I sent a train, like, with a brick on the gas pedal, full speed at it. And then you see if the Lamborghini survives. how? I thought it was pretty cool.",
-    "is_overflow_split": false
+    "speaker": "SPEAKER_01+SPEAKER_00",
+    "start_time": 257.88,
+    "end_time": 276.26,
+    "text": "No, it's very cool, but I'm saying, like, how do you, how do you legally do all this stuff? How do you, where do you even start? Like, I can't even, like, wear shoes on here without asking NBC if I'm allowed to, like, how do you? Well, I don't, obviously, on YouTube, you know, there's no network or anything, so I can, for the most part, as long as it's legal, do whatever I want.",
+    "is_overflow_split": false,
+    "is_qa_pair": true
   },
   {
     "chunk_id": "chunk_011",
     "speaker": "SPEAKER_01",
-    "start_time": 257.88,
-    "end_time": 268.78,
-    "text": "No, it's very cool, but I'm saying, like, how do you, how do you legally do all this stuff? How do you, where do you even start? Like, I can't even, like, wear shoes on here without asking NBC if I'm allowed to, like,",
+    "start_time": 276.26,
+    "end_time": 281.52,
+    "text": "Is there any been something that you go like, ah, this just can't be done or wasn't done the best way?",
     "is_overflow_split": false
   },
   {
     "chunk_id": "chunk_012",
     "speaker": "SPEAKER_00",
-    "start_time": 269.28,
-    "end_time": 276.9,
-    "text": "how do you? Well, I don't, obviously, on YouTube, you know, there's no network or anything, so I can, for the most part, as long as it's legal, do whatever I want. Is",
-    "is_overflow_split": false
+    "start_time": 282.02,
+    "end_time": 370.02,
+    "text": "Well, um, well, actually, like, the thing is, because we do so many big experiments and things that have never been done before. In general, what we do, we try to do stuff that you could not see anywhere else in the world. And so, like, a different video that's actually similar to this Lamborghini one. I gave a guy a yacht, put in a lake, and then same thing, here's my credit card, build walls, do whatever you can to stop these cannons from just sinking your yacht, and, you know, you get to keep it. But right... [SPEAKER_01: \"So people are shooting cannons.\"] Yeah, we had, like, 20 cannons. You were so fun, man. But in this case, the thing is, right before we go to shoot the cannons, I mean, we're millions of dollars deep and big shoot, like, someone goes, oh, there's a bald eagle over there. And I was like, oh, that's cool. There's a bald eagle's nest. And then I didn't know this, but you can't, like, make loud noises near a bald eagle's nest because it's, like, they're protected and it can scare them away. And I was like, oh, so can we just pick up the nest to move it? Yeah, of course. And logically, that's what I was thinking. Nope, that's a federal crime. So I was like, oh, you can't displace a bald eagle? So you want to scrap the whole... Oh, yeah, you know, I got, like, a yacht here. I got all this production crew, everything. Massive shoot we've been working on for half a year. And then I'm just like, bro, it's literally just a bald eagle. Like, you're sure I can't just move its nest? And so we had to literally pack everything up, spend obscene amounts of money, and move to a different lake. And so we have things like that happen all the time that there's not, like, a manual for these kinds of things. And so I'm just like, okay, now I know. Survey the area for bald eagles. Yeah, see?",
+    "is_overflow_split": false,
+    "absorbed_interjection": true
   },
   {
     "chunk_id": "chunk_013",
-    "speaker": "SPEAKER_00",
-    "start_time": 281.38,
-    "end_time": 307.34,
-    "text": "way? Uh, well, um, well, actually, like, the thing is, because we do so many big experiments and things that have never been done before. In general, what we do, we try to do stuff that you could not see anywhere else in the world. And so, like, a different video, that's actually similar to this Lamborghini one. I gave a guy a yacht, put in a lake, and then same thing, here's my credit card. Build walls, do whatever you can to stop these cannons from just sinking your yacht, and, you know, you get to keep it. But right...",
-    "is_overflow_split": false
+    "speaker": "SPEAKER_01",
+    "start_time": 370.22,
+    "end_time": 390.62,
+    "text": "You live, you learn. [SPEAKER_00: \"Exactly.\"] We have, like, lists of all these things that I just didn't know. You do so much more besides just YouTube. You have a line of toys. You have food. You have a software company. You're starting a mobile phone service. You're even starting your own bank. But you also do a lot of philanthropy. Tell us about some of these things that you're working on right now.",
+    "is_overflow_split": false,
+    "absorbed_interjection": true
   },
   {
     "chunk_id": "chunk_014",
-    "speaker": "SPEAKER_00",
-    "start_time": 308.94,
-    "end_time": 343.14,
-    "text": "Yeah, we had, like, 20 cannons. You were so fun, man. But in this case, the thing is, right before we go to shoot the cannons, I mean, we're millions of dollars deep and big shoot, like, someone goes, oh, there's a bald eagle over there. And I was like, oh, that's cool, there's a bald eagle's nest. And then I didn't know this, but you can't, like, make loud noises near a bald eagle's nest because it's, like, they're protected and it can scare them away. And I was like, oh, so can we just pick up the nest to move it? Yeah, of course. Logically, that's what I was thinking. Nope, that's a federal crime. So I was like, oh, you can't displace bald eagle? So you want to scrap",
-    "is_overflow_split": false
+    "speaker": "SPEAKER_00+SPEAKER_01",
+    "start_time": 390.88,
+    "end_time": 452.37,
+    "text": "Well, I mean, where do I start? But you can tell by what he just listed. I really enjoy building businesses. I find it a lot of fun. And I guess the thing that I spend a lot of time on is just on the chocolate side with Feastables, which we, there's a lot of kids in a child labor that work on cacao farms. And so Feastables, we pay all our farmers a living income reference price. And we actually, I didn't remediate the child labor on the farms. And so, you know, the bigger Feastables gets, the more kids we can get out of child labor on cacao farms. So that's why I'm very passionate about Feastables. And, yeah, it's been the big focus on this. That's the thing, right? I watch your videos. My kids watch your videos, too. But that's my favorite one is when you give back and you see that you have heart. And you go, yeah, this guy is using his celebrity for good. Thank you. Which is a good, cool move. I love that. That's what you should do. We need it. We need it. Thank You did a video you posted on your channel a few months ago called Hi, Me in 10 Years. Yep. You recorded this video in 2015.",
+    "is_overflow_split": false,
+    "is_qa_pair": true
   },
   {
     "chunk_id": "chunk_015",
-    "speaker": "SPEAKER_00",
-    "start_time": 343.52,
-    "end_time": 370.02,
-    "text": "Oh, yeah, you know, I got, like, a yacht here. I got all this production crew, everything. Massive shoot we've been working on for half a year. And then I'm just like, bro, it's literally just a bald eagle. Like, you're sure I can't just move its nest? And so we had to literally pack everything up, spend obscene amounts of money, and move to a different lake. And so we have things like that happen all the time that there's not, like, a manual for these kinds of things. And so I'm just like, okay, now I know. Survey the area for bald eagles. Yeah, see?",
-    "is_overflow_split": false
+    "speaker": "SPEAKER_00+SPEAKER_01",
+    "start_time": 452.85,
+    "end_time": 510.39,
+    "text": "Yep. And YouTube has this feature where you can schedule upload videos to go public in the future. So when I was a teenager, I filmed a video and then set it on YouTube to manually go up 10 years later. It was pretty crazy. And then that video went up like three months ago. I completely forgot I made It was pretty wild. We have a little bit of the video. Oh, gosh. I look like a nerd in it. Hi, me in 10 years. At the time I'm recording this video, I have 8 ,000 subscribers and 1 .8 million views. So whenever you see this, compare these numbers to whatever I have when you watch this. Dude, I really hope I have a million subs by now. Please, future me, please. What am I doing with my hand? Please have a million subs. Haircut. What is that haircut? Who let my hair look like that? Your goal was to have a million subscribers. And right now, let me just say that you have 466 million subscribers and 110 billion views.",
+    "is_overflow_split": false,
+    "is_qa_pair": true
   },
   {
     "chunk_id": "chunk_016",
-    "speaker": "SPEAKER_01",
-    "start_time": 276.9,
-    "end_time": 370.96,
-    "text": "there any been something that you go, like, ah, this just can't be done or wasn't done the best So people are shooting cannons? the whole idea? You live, you learn.",
+    "speaker": "SPEAKER_00",
+    "start_time": 511.35,
+    "end_time": 517.05,
+    "text": "Yeah. Pretty crazy. It doesn't even, it's just a big number. It just doesn't even seem real, to be honest.",
     "is_overflow_split": false
   },
   {
     "chunk_id": "chunk_017",
-    "speaker": "SPEAKER_01",
-    "start_time": 372.88,
-    "end_time": 390.64,
-    "text": "that I just didn't know. You do so much more besides just YouTube. You have a line of toys. You have food. You have a software company. You're starting a mobile phone service. You're even starting your own bank. Yeah. But you also do a lot of philanthropy. Tell us about some of these things that you're working on right now.",
-    "is_overflow_split": false
+    "speaker": "SPEAKER_01+SPEAKER_00",
+    "start_time": 517.21,
+    "end_time": 571.19,
+    "text": "I was thinking, since you made that video in your bedroom, maybe now you're here on The Tonight Show, would you like to talk to yourself in 10 years? Oh, like film something now for me in 10 years? Yeah. Oh, gosh. 2036. You can look at that camera. That camera? Yeah, look at... Okay, this is for 2036. Wow. Well, you're old. Pretty old now. You're like 37. So hopefully you have a few kids now, and hopefully they're, you know, not spoiled. Good luck figuring that one out. And I hope you're just still making content. Hope you're still building businesses that, you know, that are net positive. And I don't even know what I'm doing tomorrow. So thinking 10 years in the future right now is just so crazy. I guess, hope, maybe we have a billion subscribers. Assuming people don't just randomly stop watching me. So, I don't know. I feel a little put on the spot, but I'm rooting for you, and I hope it works out.",
+    "is_overflow_split": false,
+    "is_qa_pair": true
   },
   {
     "chunk_id": "chunk_018",
-    "speaker": "SPEAKER_00",
-    "start_time": 371.02,
-    "end_time": 423.61,
-    "text": "Exactly. We have, like, lists of all these things Well, I mean, where do I start? You can tell by what he just listed. I really enjoy building businesses. I find it a lot of fun. And I guess the thing that I spend a lot of time on is just on the chocolate side with Feastables, which we, there's a lot of kids in a child labor that work on cacao farms. And so Feastables, we pay all our farmers a living income reference price. And we actually audit and remediate the child labor on the farms. And so, you know, the bigger Feastables gets, the more kids we can get out of child labor on cacao farms. So that's why I'm very passionate about Feastables. And, yeah, it's been the big focus on this. That's the thing, right?",
-    "is_overflow_split": false
+    "speaker": "SPEAKER_01+SPEAKER_00",
+    "start_time": 574.4,
+    "end_time": 647.76,
+    "text": "Thank you for doing that. I'm rooting for you is a good line. I'm rooting for you. I'm rooting for me. I know you're rooting for you. We're all rooting for each other. Let's talk about Beast Games. You're in the middle of your second season. How do we set up what the show is? Oh, boy. Well, Beast Games is essentially like if you took a competition show and you just, you know, crank the dial up to the max. Yeah. But then didn't stop and kept cranking it, even though the dial broke. Wow. And you just keep turning it. Beastify it. Yeah, basically. And so it's, you know, the largest cash prize ever, most contestants ever, all the usual stuff. Every season, we break a bunch of world records. And so season two, we get 100 of the strongest people in the world that I can find to go against 100 of the smartest people in the world I can find and just some of the biggest set spectacles in the world for a $5 million prize. It is so fun to watch all of it. What you built, even the whole world that they live in. Yeah. Well, city. Yeah. So each season of Beast Games, we build a city for the contestants to live in. Because, you know, a lot of competition shows in between each challenge, they go to a hotel room. And I'm like, that's lame. You know, like, I want them to interact with each other. I want them to live with each other and, like, you know, to become a thing. So, like, once they enter, they're playing games or they're living in the city. So it becomes like a community. And they're there for 45 days.",
+    "is_overflow_split": false,
+    "is_qa_pair": true
   },
   {
     "chunk_id": "chunk_019",
-    "speaker": "SPEAKER_01",
-    "start_time": 425.65,
-    "end_time": 452.37,
-    "text": "I watch your videos. My kids watch your videos, too. But that's my favorite one is when you give back and you see that you have heart and you go, yeah, this guy is using his celebrity for good. Thank you. Which is a good, cool move. I love that. That's what you should do. We need it. We need it. Thank You did a video you posted on your channel a few months ago called Hi, Me in 10 Years. Yep. You recorded this video in 2015.",
-    "is_overflow_split": false
+    "speaker": "SPEAKER_01+SPEAKER_00",
+    "start_time": 648.06,
+    "end_time": 671.15,
+    "text": "It's so bizarre. Yeah. It's fantastic to watch. I'm a big fan, obviously. I want to show everyone a clip. This is season two of Beast Games. Take a look. [SPEAKER_00: \"The rest of you have survived the first round.\"] How do I get back on? Just as long as you can safely make it back to your platform. Anna, can you get back on?",
+    "is_overflow_split": false,
+    "absorbed_interjection": true,
+    "is_qa_pair": true
   },
   {
     "chunk_id": "chunk_020",
-    "speaker": "SPEAKER_00",
-    "start_time": 452.85,
-    "end_time": 497.45,
-    "text": "Yep. And YouTube has this feature where you can schedule upload videos to go public in the future. So when I was a teenager, I filmed a video and then set it on YouTube to manually go up 10 years later. It was pretty crazy. And then that video went up like three months ago. I completely forgot I made It was pretty wild. We have a little bit of the video. Oh, gosh. I look like a nerd in it. Hi, me in 10 years. At the time I'm recording this video, I have 8 ,000 subscribers and 1 .8 million views. So whenever you see this, compare these numbers to whatever I have when you watch this. Dude, I really hope I have a million subs by now. Please, future me. Please, what am I doing with my hand? Please have a million subs. Haircut. What is that haircut? Who let my hair look like that?",
-    "is_overflow_split": false
-  },
-  {
-    "chunk_id": "chunk_021",
     "speaker": "SPEAKER_01",
-    "start_time": 498.75,
-    "end_time": 525.07,
-    "text": "Your goal was to have a million subscribers, okay? And right now, let me just say, you have 466 million subscribers and 110 billion views. I was thinking, since you made that video in your bedroom, maybe now you're here on The Tonight Show. Would you like to talk to yourself in 10 years?",
-    "is_overflow_split": false
-  },
-  {
-    "chunk_id": "chunk_022",
-    "speaker": "SPEAKER_00",
-    "start_time": 511.31,
-    "end_time": 571.19,
-    "text": "Yeah, pretty crazy. It doesn't even, just big number. It just doesn't even seem real, to be honest. Oh, like, film something now for me in 10 years? Yeah. Oh, gosh. 2036. You can look in that camera. That camera? Yeah, look in. Okay, this is for 2036. Wow. Well, you're old. Pretty old now. You're like 37. So hopefully you have a few kids now, and hopefully they're, you know, not spoiled. Good luck figuring that one out. And I hope you're just still making content. Hope you're still building businesses that, you know, that are net positive. And I don't even know what I'm doing tomorrow. So thinking 10 years in the future right now is just so crazy. I guess, oh, maybe we have a billion subscribers. Assuming people don't just randomly stop watching me. So, I don't know. I feel a little put on the spot. But I'm rooting for you, and I hope it works out.",
-    "is_overflow_split": false
-  },
-  {
-    "chunk_id": "chunk_023",
-    "speaker": "SPEAKER_01",
-    "start_time": 574.4,
-    "end_time": 587.84,
-    "text": "Thank you for doing that. I'm rooting for you is a good line. I'm rooting for you. I'm rooting for me. I know you're rooting for you. We're all rooting for each other. Let's talk about Beast Games. You're in the middle of your second season. How do we set up what the show is?",
-    "is_overflow_split": false
-  },
-  {
-    "chunk_id": "chunk_024",
-    "speaker": "SPEAKER_00",
-    "start_time": 588.24,
-    "end_time": 647.76,
-    "text": "Oh, boy. Well, Beast Games is essentially like if you took a competition show, and you just, you know, crank the dial up to the max. Yeah. But then didn't stop and kept cranking it, even though the dial broke. Wow. And you just keep turning it. Beastify it. Yeah, basically. And so it's, you know, the largest cash prize ever, most contestants ever, all the usual stuff. Every season, we break a bunch of world records. And so season two, we get 100 of the strongest people in the world that I can find to go against 100 of the smartest people in the world I can find and just some of the biggest set spectacles in the world for a $5 million prize. It is so fun to watch all of it. What you built, even the whole world that they live in? Yeah. Well, a city, yeah. So each season of Beast Games, we build a city for the contestants to live in. Because, you know, a lot of competition shows, in between each challenge, they go to a hotel room. And I'm like, that's lame. You know, like, I want them to interact with each other. I want them to live with each other. And, like, you know, it to become a thing. So, like, once they enter, they're playing games or they're living in the city. So it becomes like a community. And they're there for 45 days.",
-    "is_overflow_split": false
-  },
-  {
-    "chunk_id": "chunk_025",
-    "speaker": "SPEAKER_01",
-    "start_time": 648.06,
-    "end_time": 656.04,
-    "text": "It's so bizarre. Yeah. It's fantastic to watch. I'm a big fan, obviously. I want to show everyone a clip. This is season two of Beast Games. Take a look.",
-    "is_overflow_split": false
-  },
-  {
-    "chunk_id": "chunk_026",
-    "speaker": "SPEAKER_01",
-    "start_time": 659.78,
+    "start_time": 679.77,
     "end_time": 700.64,
-    "text": "How do I get back on? Swing over. Rotate your body. Rotate your body. You got it. You got it. Nick, you're good. Oh, thank you. Mr. Beast, everybody. New episodes of Beast Games are available every Wednesday on Prime Video. Mr. Beast and I are doing something fun after the break. Stick around. Come on back.",
-    "is_overflow_split": false
-  },
-  {
-    "chunk_id": "chunk_027",
-    "speaker": "SPEAKER_00",
-    "start_time": 656.68,
-    "end_time": 671.15,
-    "text": "The rest of you have survived the first round. Just as long as you can safely make it back to your platform. Anna, can you get back on?",
+    "text": "Swing over. Rotate your body. Rotate your body. You got it. You got it. Nick, you got it. Oh, thank you. Mr. Beast, everybody. New episodes of Beast Games are available every Wednesday on Prime Video. Mr. Beast and I are doing something fun after the break. Stick around. Come on back.",
     "is_overflow_split": false
   }
 ]

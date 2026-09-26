@@ -25,26 +25,27 @@
   },
   {
     "chunk_id": "chunk_003",
-    "speaker": "SPEAKER_01",
-    "start_time": 161.68,
-    "end_time": 184.82,
-    "text": "exactly right and in fact that's a way to think about it it's the swarm of agents uh I mean it in a prosaic level I kind of look at it and say it's not like when you hire a data analyst you don't you hire them and their spreadsheets yeah that's kind of what it is right so it's like agents are going I think two years from now we're going to say yeah agents yeah I build them like all day like I build docs and spreadsheets and I think that's going to come",
+    "speaker": "SPEAKER_00",
+    "start_time": 156.48,
+    "end_time": 161.68,
+    "text": "and when you're hiring people I think in the future you'll now hire people plus you know their workflows that's",
     "is_overflow_split": false
   },
   {
     "chunk_id": "chunk_004",
     "speaker": "SPEAKER_01",
-    "start_time": 185.56,
+    "start_time": 161.68,
     "end_time": 209.78,
-    "text": "there you go I have a basket of my agents and you know like get it like I already see that right like you know every SharePoint like then like I have a leadership meeting uh and leadership team in which there's like all these documents the best grounding data is all in there so I just have a simple agent now which is a SharePoint agent that I'm always addressing and it's fantastic not to just to have to go to a separate entity and not you know query it but to have it right there",
-    "is_overflow_split": false
+    "text": "exactly right and in fact that's a way to think about it it's the swarm of agents uh I mean it in a prosaic level I kind of look at it and say it's not like when you hire a data analyst you don't you hire them and their spreadsheets yeah that's kind of what it is right so it's like agents are going I think two years from now we're going to say yeah agents yeah I build them like all day like I build docs and spreadsheets and I think that's going to come [SPEAKER_00: \"with a basket of them\"] there you go I have a basket of my agents and you know like get it like I already see that right like you know every SharePoint like then like I have a leadership meeting uh and leadership team in which there's like all these documents the best grounding data is all in there so I just have a simple agent now which is a SharePoint agent that I'm always addressing and it's fantastic not to just to have to go to a separate entity and not you know query it but to have it right there",
+    "is_overflow_split": false,
+    "absorbed_interjection": true
   },
   {
     "chunk_id": "chunk_005",
     "speaker": "SPEAKER_00",
-    "start_time": 156.48,
+    "start_time": 209.78,
     "end_time": 237.92,
-    "text": "and when you're hiring people I think in the future you'll now hire people plus you know their workflows that's with a basket of them a follow -up question here is how does India stay competitive as this changes because we look at when the LLMs first came out first became popular uh we always said that if India can build foundational models and sort of do what the West has done that'll be an advantage for us but we're now starting to see that many of those get commoditized and we're starting to see that the real mode is the ability to keep coming up with breakthroughs if you had to pick something that India can do now that is still defensible in the next few years what would that be yeah but like it's",
+    "text": "a follow -up question here is how does India stay competitive as this changes because we look at when the LLMs first came out first became popular uh we always said that if India can build foundational models and sort of do what the West has done that'll be an advantage for us but we're now starting to see that many of those get commoditized and we're starting to see that the real mode is the ability to keep coming up with breakthroughs if you had to pick something that India can do now that is still defensible in the next few years what would that be yeah but like it's",
     "is_overflow_split": false
   },
   {

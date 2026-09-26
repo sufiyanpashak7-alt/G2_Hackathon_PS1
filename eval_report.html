@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Retrieval Eval Report — top-5</title>
+<style>
+  :root {
+    --bg:#0f1115; --panel:#171a21; --border:#2a2e38;
+    --text:#e6e8ec; --muted:#9aa1ad;
+    --good:#1f7a4d; --good-bg:#12251c;
+    --mid:#9c7a12; --mid-bg:#241f10;
+    --bad:#b3392f; --bad-bg:#2a1512;
+    --accent:#5b8def;
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; padding:32px 24px 64px;
+    background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    line-height:1.5;
+  }
+  h1 { font-size:1.5rem; margin:0 0 4px; }
+  .meta { color:var(--muted); font-size:.85rem; margin-bottom:8px; }
+  .verdict {
+    background:var(--panel); border:1px solid var(--border);
+    border-left:4px solid var(--accent); border-radius:8px;
+    padding:14px 18px; margin:18px 0 28px; font-size:.95rem;
+  }
+  .cards { display:flex; gap:16px; flex-wrap:wrap; margin-bottom:20px; }
+  .card {
+    background:var(--panel); border:1px solid var(--border);
+    border-radius:10px; padding:16px 20px; min-width:170px;
+  }
+  .card .label {
+    font-size:.72rem; color:var(--muted); text-transform:uppercase;
+    letter-spacing:.04em;
+  }
+  .card .value { font-size:1.6rem; font-weight:600; margin-top:4px; }
+  .card .sub { font-size:.72rem; color:var(--muted); margin-top:2px; }
+  h2 { font-size:1.05rem; margin:34px 0 4px; }
+  .subhead { font-weight:400; color:var(--muted); font-size:.82rem; }
+  .explain { color:var(--muted); font-size:.85rem; margin:4px 0 12px; max-width:820px; }
+  table {
+    width:100%; border-collapse:collapse; background:var(--panel);
+    border-radius:10px; overflow:hidden;
+  }
+  th,td {
+    padding:10px 14px; text-align:left; border-bottom:1px solid var(--border);
+    font-size:.86rem; vertical-align:top;
+  }
+  th {
+    color:var(--muted); font-weight:600; font-size:.75rem;
+    text-transform:uppercase; letter-spacing:.03em;
+  }
+  td.num { font-variant-numeric:tabular-nums; width:65px; }
+  td.mono {
+    font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+    font-size:.78rem; color:var(--muted); max-width:260px;
+  }
+  .results-cell { min-width:280px; max-width:430px; }
+  .result-item { padding:0 0 9px; margin:0 0 9px; border-bottom:1px solid var(--border); }
+  .result-item:last-child { border-bottom:0; padding-bottom:0; margin-bottom:0; }
+  .result-file { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.78rem; color:var(--text); word-break:break-word; }
+  .result-meta { display:flex; gap:10px; flex-wrap:wrap; margin-top:2px; font-size:.75rem; }
+  .result-time { color:var(--accent); font-variant-numeric:tabular-nums; }
+  .result-speaker { color:var(--muted); font-weight:600; }
+  .result-text { margin-top:3px; color:var(--muted); font-size:.74rem; line-height:1.35; }
+  .muted-inline { color:var(--muted); font-size:.78rem; }
+  .qcell { max-width:380px; }
+  .note { color:var(--muted); font-size:.76rem; margin-top:3px; }
+  tr.good td { background:var(--good-bg); }
+  tr.mid td { background:var(--mid-bg); }
+  tr.bad td { background:var(--bad-bg); }
+  .badge {
+    display:inline-block; padding:2px 10px; border-radius:999px;
+    font-size:.72rem; font-weight:600;
+  }
+  .badge.pass {
+    background:var(--good-bg); color:#4ade80; border:1px solid var(--good);
+  }
+  .badge.fail {
+    background:var(--bad-bg); color:#f87171; border:1px solid var(--bad);
+  }
+  .legend {
+    display:flex; gap:18px; flex-wrap:wrap; margin:10px 0 24px;
+    font-size:.78rem; color:var(--muted);
+  }
+  .legend span.dot {
+    display:inline-block; width:10px; height:10px; border-radius:50%;
+    margin-right:6px; vertical-align:middle;
+  }
+  footer {
+    margin-top:44px; color:var(--muted); font-size:.76rem;
+    border-top:1px solid var(--border); padding-top:16px;
+  }
+</style>
+</head>
+<body>
+  <h1>Retrieval Eval Report</h1>
+  <div class="meta">
+    Generated 2026-09-26 17:07:17 ·
+    top-5 · 12 labeled queries
+    (10 positive / 2 negative control) ·
+    corpus: 5 source file(s)
+  </div>
+
+  <div class="verdict">
+    <b>Read this first:</b> mean Recall@5 is
+    <b>0.700</b>, which clears the ≥0.70 recall target.
+    Negative-control abstention is <b>100%</b> —
+    all out-of-corpus queries were correctly abstained. See the per-query tables below for the detailed results.
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <div class="label">Mean Recall@5</div>
+      <div class="value">0.700</div>
+      <div class="sub">fraction of relevant chunks found in top 5</div>
+    </div>
+    <div class="card">
+      <div class="label">Mean MRR</div>
+      <div class="value">0.650</div>
+      <div class="sub">how high the first hit ranks</div>
+    </div>
+    <div class="card">
+      <div class="label">Mean nDCG@5</div>
+      <div class="value">0.663</div>
+      <div class="sub">relevance weighted by rank position</div>
+    </div>
+    <div class="card">
+      <div class="label">Negative-control pass rate</div>
+      <div class="value">100%</div>
+      <div class="sub">correctly abstained on out-of-corpus queries</div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <span><span class="dot" style="background:var(--good)"></span>Recall ≥ 0.75 (good)</span>
+    <span><span class="dot" style="background:var(--mid)"></span>Recall 0.40–0.74 (partial)</span>
+    <span><span class="dot" style="background:var(--bad)"></span>Recall &lt; 0.40 (miss)</span>
+  </div>
+
+  
+  <h2>Core queries (10)
+    <span class="subhead">avg recall 0.70</span>
+  </h2>
+  <p class="explain">The original core query set.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Query</th>
+        <th>Recall@5</th>
+        <th>MRR</th>
+        <th>nDCG@5</th>
+        <th>Retrieved — file / timestamp / speaker</th>
+        <th>Expected — file / timestamp / speaker</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr class="good">
+          <td class="qcell">What is the two-part plan for today&#x27;s episode?
+            <div class="note">Part 1 shadowing/listening, Part 2 vocabulary breakdown</div>
+          </td>
+          <td class="num">1.00</td>
+          <td class="num">1.00</td>
+          <td class="num">1.00</td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">10-Minute_English_Conver…#4</div><div class="result-meta"><span class="result-time">37.54s – 63.56s</span><span class="result-speaker">SPEAKER_00</span></div><div class="result-text">[...a full 30 -minute practice masterclass designed to boost your fluency and listening confidence here] is our two -part plan for today part one immersive listening and shadowing practice maya and i are going to have a …</div></div></td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">10-Minute_English_Conver…#4</div><div class="result-meta"><span class="result-time">37.54s – 63.56s</span><span class="result-speaker">SPEAKER_00</span></div><div class="result-text">is our two -part plan for today part one immersive listening and shadowing practice maya and i are going to have a 15 -minute clear natural conversation about daily routines productivity and how to stop procrastinating y…</div></div></td>
+        </tr>
+        <tr class="bad">
+          <td class="qcell">What changes did Maya make to her morning routine to stop scrolling on her phone?
+            <div class="note">Phone in kitchen overnight, glass of water, fresh air, reading 10 pages</div>
+          </td>
+          <td class="num">0.00</td>
+          <td class="num">0.00</td>
+          <td class="num">0.00</td>
+          <td class="results-cell"><span class="muted-inline">No retrieved results</span></td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">10-Minute_English_Conver…#13</div><div class="result-meta"><span class="result-time">142.18s – 156.90s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">i leave my phone charging in the kitchen overnight when my alarm rings in the bedroom i have to physically get out of bed to turn it off then i drink a big glass of water step outside for fresh air and read 10 pages of a…</div></div></td>
+        </tr>
+        <tr class="good">
+          <td class="qcell">What is the 70th, 50th, and 25th milestone Bill Gates mentions?
+            <div class="note">Gates turning 70, Microsoft turning 50, Foundation turning 25</div>
+          </td>
+          <td class="num">1.00</td>
+          <td class="num">1.00</td>
+          <td class="num">1.00</td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">Bill_Gates_Joked_with_St…#1</div><div class="result-meta"><span class="result-time">1.74s – 53.63s</span><span class="result-speaker">SPEAKER_01+SPEAKER_00</span></div><div class="result-text">[...Bill, welcome back.] I always like having you on the show. I actually just thought of this seconds before it. I apologize. Here, I&#x27;ll just put this. No one... You didn&#x27;t see anything. You didn&#x27;t see anything. Welcome…</div></div></td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">Bill_Gates_Joked_with_St…#1</div><div class="result-meta"><span class="result-time">1.74s – 53.63s</span><span class="result-speaker">SPEAKER_01+SPEAKER_00</span></div><div class="result-text">I always like having you on the show. I actually just thought of this seconds before it. I apologize. Here, I&#x27;ll just put this. No one... You didn&#x27;t see anything. You didn&#x27;t see anything. Welcome back to the show. I alwa…</div></div></td>
+        </tr>
+        <tr class="good">
+          <td class="qcell">What joke did Bill Gates make regarding Steve Jobs&#x27; comment about him taking LSD?
+            <div class="note">Joked that he took acid but got the batch about code rather than design</div>
+          </td>
+          <td class="num">1.00</td>
+          <td class="num">0.50</td>
+          <td class="num">0.63</td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">Bill_Gates_Joked_with_St…#7</div><div class="result-meta"><span class="result-time">160.41s – 170.46s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">[...And the whole volunteering thing, giving back to the community, they set an example that I&#x27;m trying to live up to. Yeah, you really are, yeah.] You&#x27;re doing a good job. 50th anniversary of Microsoft. You look back at…</div></div><div class="result-item"><div class="result-file">Bill_Gates_Joked_with_St…#12</div><div class="result-meta"><span class="result-time">259.12s – 310.60s</span><span class="result-speaker">SPEAKER_00</span></div><div class="result-text">He was a Hendrix fan. He played the guitar. Yeah, experimented with LSD. And he made me do the same thing. Yeah. Did that? Hold on. I don&#x27;t want to have no flashbacks. [SPEAKER_01: &quot;I don&#x27;t want to have no flashbacks.&quot;] …</div></div><div class="result-item"><div class="result-file">Bill_Gates_Joked_with_St…#11</div><div class="result-meta"><span class="result-time">256.52s – 259.06s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">[...see this and other people don&#x27;t. We don&#x27;t know why, but let&#x27;s go show them.] Yeah. He sounds like fun, by the way, Paul Allen.</div></div><div class="result-item"><div class="result-file">Bill_Gates_Joked_with_St…#1</div><div class="result-meta"><span class="result-time">1.74s – 53.63s</span><span class="result-speaker">SPEAKER_01+SPEAKER_00</span></div><div class="result-text">[...Bill, welcome back.] I always like having you on the show. I actually just thought of this seconds before it. I apologize. Here, I&#x27;ll just put this. No one... You didn&#x27;t see anything. You didn&#x27;t see anything. Welcome…</div></div><div class="result-item"><div class="result-file">Bill_Gates_Joked_with_St…#3</div><div class="result-meta"><span class="result-time">83.75s – 97.77s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">[...And I&#x27;d be like, oh, okay. I get what you want me to do. yeah.] Yeah, that was a side way of saying, you better go to college, yeah. And then you went and dropped out. I did. Yeah, good for you. Good for you. I went …</div></div></td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">Bill_Gates_Joked_with_St…#12</div><div class="result-meta"><span class="result-time">259.12s – 310.60s</span><span class="result-speaker">SPEAKER_00</span></div><div class="result-text">He was a Hendrix fan. He played the guitar. Yeah, experimented with LSD. And he made me do the same thing. Yeah. Did that? Hold on. I don&#x27;t want to have no flashbacks. [SPEAKER_01: &quot;I don&#x27;t want to have no flashbacks.&quot;] …</div></div></td>
+        </tr>
+        <tr class="good">
+          <td class="qcell">Why did MrBeast have to move his production shoot away from a lake when filming a video?
+            <div class="note">Bald eagle&#x27;s nest near the lake; federal crime to disturb</div>
+          </td>
+          <td class="num">1.00</td>
+          <td class="num">1.00</td>
+          <td class="num">1.00</td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">MrBeast_Counted_to_100,0…#11</div><div class="result-meta"><span class="result-time">282.02s – 370.02s</span><span class="result-speaker">SPEAKER_00</span></div><div class="result-text">[...you go like, ah, this just can&#x27;t be done or wasn&#x27;t done the best way?] Well, um, well, actually, like, the thing is, because we do so many big experiments and things that have never been done before. In general, what…</div></div></td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">MrBeast_Counted_to_100,0…#11</div><div class="result-meta"><span class="result-time">282.02s – 370.02s</span><span class="result-speaker">SPEAKER_00</span></div><div class="result-text">Well, um, well, actually, like, the thing is, because we do so many big experiments and things that have never been done before. In general, what we do, we try to do stuff that you could not see anywhere else in the worl…</div></div></td>
+        </tr>
+        <tr class="bad">
+          <td class="qcell">What message did teenage MrBeast leave for himself in the 10-year video from 2015?
+            <div class="note">Comparing 2015 numbers (8k subs, 1.8M views) to future self, hoped for 1M subs</div>
+          </td>
+          <td class="num">0.00</td>
+          <td class="num">0.00</td>
+          <td class="num">0.00</td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">MrBeast_Counted_to_100,0…#19</div><div class="result-meta"><span class="result-time">679.77s – 700.64s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">[...Just as long as you can safely make it back to your platform. Anna, can you get back on?] Swing over. Rotate your body. Rotate your body. You got it. You got it. Nick, you got it. Oh, thank you. Mr. Beast, everybody.…</div></div><div class="result-item"><div class="result-file">MrBeast_Counted_to_100,0…#7</div><div class="result-meta"><span class="result-time">219.70s – 227.62s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">You do so many fun things. Let me just read some of the titles of your videos. Oh, gosh. One is Stop This Train, Win a Lamborghini. [Yep, that&#x27;s a, that one of my favorite videos. Because we put a Lamborghini on train tr…</div></div><div class="result-item"><div class="result-file">MrBeast_Counted_to_100,0…#6</div><div class="result-meta"><span class="result-time">212.96s – 219.34s</span><span class="result-speaker">SPEAKER_00</span></div><div class="result-text">[...just clicking on it going, I can&#x27;t believe this dude is counting to 100 ,000.] Yeah, no, you&#x27;re being too nice. They&#x27;re more clicking like, what is this idiot doing? Like, what an absolute moron.</div></div><div class="result-item"><div class="result-file">MrBeast_Counted_to_100,0…#12</div><div class="result-meta"><span class="result-time">370.22s – 390.62s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">[...And so I&#x27;m just like, okay, now I know. Survey the area for bald eagles. Yeah, see?] You live, you learn. [SPEAKER_00: &quot;Exactly.&quot;] We have, like, lists of all these things that I just didn&#x27;t know. You do so much more…</div></div><div class="result-item"><div class="result-file">MrBeast_Counted_to_100,0…#13</div><div class="result-meta"><span class="result-time">390.88s – 452.37s</span><span class="result-speaker">SPEAKER_00+SPEAKER_01</span></div><div class="result-text">Well, I mean, where do I start? But you can tell by what he just listed. I really enjoy building businesses. I find it a lot of fun. And I guess the thing that I spend a lot of time on is just on the chocolate side with …</div></div></td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">MrBeast_Counted_to_100,0…#14</div><div class="result-meta"><span class="result-time">452.85s – 510.39s</span><span class="result-speaker">SPEAKER_00+SPEAKER_01</span></div><div class="result-text">Yep. And YouTube has this feature where you can schedule upload videos to go public in the future. So when I was a teenager, I filmed a video and then set it on YouTube to manually go up 10 years later. It was pretty cra…</div></div></td>
+        </tr>
+        <tr class="good">
+          <td class="qcell">What shift does Satya Nadella describe regarding application architecture and SaaS applications?
+            <div class="note">Shift to agents orchestrating tools across SaaS apps, decoupling CRUD/logic</div>
+          </td>
+          <td class="num">1.00</td>
+          <td class="num">1.00</td>
+          <td class="num">1.00</td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">Satya_Nadella_on_the_Fut…#1</div><div class="result-meta"><span class="result-time">19.84s – 150.91s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">Yeah I mean to me whenever there has been a real platform shift the core application architectures have changed right I mean if you look back let&#x27;s go all the way back to when the relational database was born right that …</div></div><div class="result-item"><div class="result-file">Satya_Nadella_on_the_Fut…#8</div><div class="result-meta"><span class="result-time">377.26s – 467.42s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">[...right how would you tackle that how would you upskill if you were young again] that&#x27;s a great one you know in fact the way i think um one has to deal with both the pace and the scale of innovation is to be very good …</div></div><div class="result-item"><div class="result-file">Satya_Nadella_on_the_Fut…#6</div><div class="result-meta"><span class="result-time">237.92s – 360.06s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">[...still defensible in the next few years what would that be yeah but like it&#x27;s] not just a uh India comment because it&#x27;s a comment for all of us right I mean you know at the end of the day um I think you really want to…</div></div><div class="result-item"><div class="result-file">Satya_Nadella_on_the_Fut…#10</div><div class="result-meta"><span class="result-time">490.90s – 558.12s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">[...seen it and you think it&#x27;s going to play out but in five years i] think the thing that i&#x27;m most excited about or um is on what will happen when you know this particular model architecture or other model architecture …</div></div><div class="result-item"><div class="result-file">Satya_Nadella_on_the_Fut…#0</div><div class="result-meta"><span class="result-time">0.00s – 19.36s</span><span class="result-speaker">SPEAKER_00</span></div><div class="result-text">Satya Nadella, thank you so much for doing this. I want to be very respectful of your time. The first question is the internet is abuzz with conversation of Satya Nadella said that SaaS is dead. Now I know you know that&#x27;…</div></div></td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">Satya_Nadella_on_the_Fut…#1</div><div class="result-meta"><span class="result-time">19.84s – 150.91s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">Yeah I mean to me whenever there has been a real platform shift the core application architectures have changed right I mean if you look back let&#x27;s go all the way back to when the relational database was born right that …</div></div></td>
+        </tr>
+        <tr class="good">
+          <td class="qcell">What two simultaneous gears should software developers work in according to Satya Nadella?
+            <div class="note">Frontier gear (experimentation) and optimization gear (cost, latency, deployment)</div>
+          </td>
+          <td class="num">1.00</td>
+          <td class="num">1.00</td>
+          <td class="num">1.00</td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">Satya_Nadella_on_the_Fut…#8</div><div class="result-meta"><span class="result-time">377.26s – 467.42s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">[...right how would you tackle that how would you upskill if you were young again] that&#x27;s a great one you know in fact the way i think um one has to deal with both the pace and the scale of innovation is to be very good …</div></div></td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">Satya_Nadella_on_the_Fut…#8</div><div class="result-meta"><span class="result-time">377.26s – 467.42s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">that&#x27;s a great one you know in fact the way i think um one has to deal with both the pace and the scale of innovation is to be very good at sampling with agility is what i describe it like so that means for example the g…</div></div></td>
+        </tr>
+        <tr class="bad">
+          <td class="qcell">What advice does Sundar Pichai give to Indian engineers focusing on competitive exam mindsets and rote learning?
+            <div class="note">Focus on deeper fundamental understanding rather than rote learning specific tools</div>
+          </td>
+          <td class="num">0.00</td>
+          <td class="num">0.00</td>
+          <td class="num">0.00</td>
+          <td class="results-cell"><span class="muted-inline">No retrieved results</span></td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">Sundar_Pichai’s_advice_f…#3</div><div class="result-meta"><span class="result-time">195.36s – 287.32s</span><span class="result-speaker">SPEAKER_00</span></div><div class="result-text">How is it, how do you get out of the competitive exam mindset with all these shifts coming about? I think it&#x27;s a great question. I hope, I think real success comes from understanding things in a deeper way, right? And al…</div></div></td>
+        </tr>
+        <tr class="good">
+          <td class="qcell">What makes a startup a &#x27;shallow wrapper&#x27; according to Sundar Pichai, and how can startups add value?
+            <div class="note">Shallow wrappers get replaced by native model updates; add value by solving real workflows</div>
+          </td>
+          <td class="num">1.00</td>
+          <td class="num">1.00</td>
+          <td class="num">1.00</td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">Sundar_Pichai’s_advice_f…#5</div><div class="result-meta"><span class="result-time">307.52s – 365.54s</span><span class="result-speaker">SPEAKER_00</span></div><div class="result-text">But we would love to hear it from you. So there are going to be APIs and people are going to use APIs. I think that is the way things will get built. So, you know, it&#x27;s not bad to be a wrapper. It&#x27;s just you shouldn&#x27;t be…</div></div><div class="result-item"><div class="result-file">Sundar_Pichai’s_advice_f…#1</div><div class="result-meta"><span class="result-time">37.42s – 167.52s</span><span class="result-speaker">SPEAKER_00</span></div><div class="result-text">[...Silicon Valley is, like, moving really fast. I feel you&#x27;re sort of getting left behind.] If you were an engineer back home in India or you were an entrepreneur there, what would you do to keep up? Well, first of all,…</div></div><div class="result-item"><div class="result-file">Sundar_Pichai’s_advice_f…#3</div><div class="result-meta"><span class="result-time">195.36s – 287.32s</span><span class="result-speaker">SPEAKER_00</span></div><div class="result-text">[...You&#x27;ll have a pair program available pretty quickly. Do you have advice for these people?] How is it, how do you get out of the competitive exam mindset with all these shifts coming about? I think it&#x27;s a great questi…</div></div><div class="result-item"><div class="result-file">Sundar_Pichai’s_advice_f…#9</div><div class="result-meta"><span class="result-time">510.18s – 571.66s</span><span class="result-speaker">SPEAKER_00</span></div><div class="result-text">[...Do you feel like just the number of people complaining on the internet has gone up? And that&#x27;s also given you air cover to ship boldly?] I mean, we spoke about it last year at Google I .O. We encapsulated it as being…</div></div><div class="result-item"><div class="result-file">Sundar_Pichai’s_advice_f…#4</div><div class="result-meta"><span class="result-time">288.04s – 307.38s</span><span class="result-speaker">SPEAKER_01</span></div><div class="result-text">Interesting. And, you know, I don&#x27;t know if you&#x27;ve spent time on Twitter, like, recently. But a lot of people, you know, there&#x27;s a word for startups being built on top of models like Gemini, right? It&#x27;s kind of derogator…</div></div></td>
+          <td class="results-cell"><div class="result-item"><div class="result-file">Sundar_Pichai’s_advice_f…#5</div><div class="result-meta"><span class="result-time">307.52s – 365.54s</span><span class="result-speaker">SPEAKER_00</span></div><div class="result-text">But we would love to hear it from you. So there are going to be APIs and people are going to use APIs. I think that is the way things will get built. So, you know, it&#x27;s not bad to be a wrapper. It&#x27;s just you shouldn&#x27;t be…</div></div></td>
+        </tr></tbody>
+  </table>
+
+
+  <h2>Negative controls (2)</h2>
+  <p class="explain">
+    Questions with no answer anywhere in the corpus. A correct system returns
+    nothing or flags low confidence rather than confidently citing an unrelated chunk.
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Query</th>
+        <th>Result</th>
+        <th>Retrieved — file / timestamp / speaker</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr class="good">
+          <td class="qcell">What is the step-by-step recipe for baking a sourdough bread loaf at high altitude?
+            <div class="note">NEGATIVE CONTROL — topic absent from corpus; pipeline should abstain</div>
+          </td>
+          <td><span class="badge pass">PASS</span></td>
+          <td class="results-cell"><span class="muted-inline">None</span></td>
+        </tr>
+        <tr class="good">
+          <td class="qcell">How does the James Webb Space Telescope calculate orbital corrections near Lagrange Point 2?
+            <div class="note">NEGATIVE CONTROL — topic absent from corpus; pipeline should abstain</div>
+          </td>
+          <td><span class="badge pass">PASS</span></td>
+          <td class="results-cell"><span class="muted-inline">None</span></td>
+        </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    Ground truth is resolved live from short text anchors against the current
+    corpus — never a hardcoded chunk index — so result/index values reflect
+    this run's chunking rather than a stale label.
+  </footer>
+</body>
+</html>
